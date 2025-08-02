@@ -1,0 +1,104 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <div id="esercizio1"></div>
+    <div id="esercizio2"></div>
+    <div id="esercizio3"></div>
+    <div id="esercizio4"></div>
+    <div id="esercizio5"></div>
+
+    <script>
+        //esercizio1 variabili
+        var numero1 = 10;
+        var numero2 = 20;
+        var somma = numero1 + numero2;
+
+        //esercizio2 variabili
+        var topo = "Cinque"
+        var topo2 = 6;
+
+        //esercizio3 variabili
+
+        var cane = true;
+        var gatto = false;
+        var amano = cane && gatto;
+
+        //esercizio4 variabili
+
+        var a = 30;
+        var b = "20";
+        var risultato = a + b;
+
+        //esercizio5 variabili
+
+        var number1 = 5;
+        var number2 = 8;
+        
+
+        //esercizio1
+
+        document.getElementById("esercizio1").innerHTML =
+            "esercizio  1" + "</br>" +
+            "Addizione di " + numero1 + " e " + numero2 + "</br>" +
+
+            "Somma: " + somma + "</br>" +
+
+            "<hr>";
+
+        //esercizio2
+
+        document.getElementById("esercizio2").innerHTML =
+            "esercizio  2" + "</br>" +
+            "Testo: " + topo + "</br>" +
+            "La lunghezza del testo è: " + topo2 + "</br>" +
+
+            "<hr>";
+
+        //Esercizio3
+
+        document.getElementById("esercizio3").innerHTML =
+            "esercizio  3" + "</br>" +
+            "Il cane odia il gatto: " + cane + "</br>" +
+            "Il gatto è amato dal cane: " + gatto + "</br>" +
+            "Il cane e il gatto si amano: " + amano + "</br>" +
+            "<hr>";
+
+
+        //Esercizio 4
+        document.getElementById("esercizio4").innerHTML =
+            "esercizio  4" + "</br>" +
+
+
+            "La Concatenazione di: " + a + " e " + b + " = " + risultato +
+            "<hr>";
+
+
+        //Esercizio 5
+        output =
+            "esercizio  5" + "</br>" +
+
+            "Primo numero: " + number1 + "</br>" +
+            "Secondo numero: " + number2 + "</br>" +
+
+        "<br>";
+        var temporanea = number1;
+            number1 = number2;
+        number2 = temporanea;
+
+        
+        output += "Dopo lo scambio: " + "</br>" +
+            "Primo numero: " + number1 + "</br>" +
+            "Secondo numero: " + number2 + "</br>";
+            
+        document.getElementById("esercizio5").innerHTML = output;
+
+        
+        
+    </script>
+</body>
+</html>

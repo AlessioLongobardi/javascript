@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <div id="esempio"></div>
+    <hr />
+    <div id="esempio2"></div>
+    <hr />
+    <div id="esempio3"></div>
+
+    <!--Script di Javascript-->
+    <script>
+        //Dichiarazione ed inizializzazione delle variabili
+        var nome = "Fabrizio";
+        var eta = 50;
+        var professione = "Senior Developer";
+
+        var ral = 15000;
+        //ral = 50000;
+
+        //Elaborazione dei dati
+        document.getElementById("esempio").innerHTML =
+            "Nome: " + nome + "</br>" +
+            "Eta: " + eta + "</br>" +
+            "Professione: " + professione;
+
+        document.getElementById("esempio2").innerHTML = "Ral Attuale: " + ral + " €";
+
+        ral = 50000;
+
+        document.getElementById("esempio3").innerHTML = "Ral dopo la promozione: " + ral + " €";
+    </script>
+</body>
+</html>

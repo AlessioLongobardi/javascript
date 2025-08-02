@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <div id="confronto"></div>
+
+    <script>
+        var a = 5;
+        var b = 10;
+        var c = "5";
+
+        //operatori di confronto
+        document.getElementById("confronto").innerHTML =
+            "a == b: " + (a == b) + "</br>" + // a è uguale al numero b
+            "a != b: " + (a != b) + "</br>" + // a è diverso dal numero b
+            "a > b: " + (a > b)   + "</br>" + // a è maggiore del numero b
+            "a <= b: " + (a <= b) + "</br>" + // a è minore o uguale al numero b
+            "a == c: " + (a == c) + "</br>" + // a è uguale al numero c //comparazione semplice
+           "a === c: " + (a === c) + "</br>"; //comparazione stretta confronta anche la sequenza binaria (sde è un numero stringa o ecc) //comparazione stretta
+    </script>
+</body>
+</html>
